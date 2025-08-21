@@ -1,0 +1,33 @@
+{
+    "manifests": {
+        "synerise/sylius-integration-plugin": {
+            "manifest": {
+                "manifests": {
+                    "synerise/sylius-integration-plugin": {
+                        "manifest": {
+                            "bundles": {
+                                "Synerise\\SyliusIntegrationPlugin\\SyneriseSyliusIntegrationPlugin": [
+                                    "all"
+                                ]
+                            },
+                            "copy-from-recipe": {
+                                "config/": "%CONFIG_DIR%"
+                            },
+                            "add-lines": [
+                                {
+                                    "file": "assets/admin/entrypoint.js",
+                                    "content": "import '../../vendor/synerise/sylius-integration-plugin/assets/admin/entrypoint';",
+                                    "position": "bottom",
+                                    "warn_if_missing": true
+                                }
+                            ]
+                        },
+                        "ref": "4f2a6c2726e79c75239d0e4513ee6bab0a59340e"
+                    }
+                }
+            },
+            "files": [],
+            "ref": "eaa0ba95cc8038bfc9bb04c4ff6ab75d40268edd"
+        }
+    }
+}
