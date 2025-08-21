@@ -7,22 +7,15 @@
             "all"
           ]
         },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        },
         "add-lines": [
           {
             "file": "assets/admin/entrypoint.js",
             "content": "import '../../vendor/synerise/sylius-integration-plugin/assets/admin/entrypoint';",
             "position": "bottom",
             "warn_if_missing": true
-          },
-          {
-            "file": "config/packages/synerise_sylius_integration_plugin.yaml",
-            "content": "imports:\n    - { resource: \"@SyneriseSyliusIntegrationPlugin/config/config.yaml\" }",
-            "executable": false
-          },
-          {
-            "file": "config/routes/synerise_sylius_integration_plugin_admin.yaml",
-            "content": "synerise_integration_admin:\n    resource: \"@SyneriseSyliusIntegrationPlugin/config/admin_routing.yaml\"\n    prefix: '/%sylius_admin.path_name%'",
-            "executable": false
           }
         ]
       },
