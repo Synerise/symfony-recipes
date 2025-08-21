@@ -1,6 +1,6 @@
 {
   "recipes": {
-    "acme/private-bundle": [
+    "synerise/sylius-integration-plugin": [
       "0.1"
     ]
   },
