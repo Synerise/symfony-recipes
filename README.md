@@ -9,13 +9,8 @@ Minimal config:
 ```json
     "symfony": {
         "endpoint": [
-            "https://api.github.com/repos/synerise/symfony-recipes/contents/index.json",
+            "https://api.github.com/repos/synerise/symfony-recipes/contents/index.json?ref=flex/main",
             "flex://defaults"
         ]
     }
 ```
-
-### Private repository
-
-Follow the [guidelines]("https://api.github.com/repos/synerise/symfony-recipes/contents/index.json") to grant composer access to the repository.
-

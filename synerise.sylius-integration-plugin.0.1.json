@@ -1,0 +1,17 @@
+{
+  "manifests": {
+    "synerise/sylius-integration-plugin": {
+      "manifest": {
+        "bundles": {
+          "Synerise\\SyliusIntegrationPlugin\\SyneriseSyliusIntegrationPlugin": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "ref": "b64e11a018ec2c599b9be68c588c99e96dacfc65"
+    }
+  }
+}
