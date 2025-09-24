@@ -1,16 +1,23 @@
-## Usage
+# Synerise Symofony Recipes
 
-### Add recipes repository
+Symfony Flex recipes repository for bundles provided by Synerise.
 
-In `composer.json` file of you application add enpoint our recipes repository: `https://api.github.com/repos/synerise/symfony-recipes/contents/index.json`.
+### Usage
 
-Minimal config:
+```bash
+composer config --json --merge extra.symfony.endpoint '["https://api.github.com/repos/synerise/symfony-recipes/contents/index.json?ref=flex/main"]'
+```
+
+Alternatively, edit `composer.json` file of your application to include an endpoint of Synerise recipes repository:
 
 ```json
-    "symfony": {
-        "endpoint": [
-            "https://api.github.com/repos/synerise/symfony-recipes/contents/index.json?ref=flex/main",
-            "flex://defaults"
-        ]
+    "extra": {
+        "symfony": {
+            "endpoint": [
+                "https://api.github.com/repos/synerise/symfony-recipes/contents/index.json?ref=flex/main",
+                "..."
+            ]
+        }
+        "..."
     }
 ```
