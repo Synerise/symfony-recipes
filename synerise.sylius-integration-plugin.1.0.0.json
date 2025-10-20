@@ -10,9 +10,6 @@
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%"
                 },
-                "copy-from-package": {
-                    "src/Migrations/": "%SRC_DIR%/Migrations/"
-                },
                 "add-lines": [
                     {
                         "file": "assets/admin/entrypoint.js",
@@ -41,7 +38,7 @@
                     "executable": false
                 }
             },
-            "ref": "3eb4becdc69bd6f5cee890702c0a9f3ff9ef56ab"
+            "ref": "48ad8e5324e003075e0fcceccce68e2feaef7761"
         }
     }
 }
