@@ -7,6 +7,9 @@
   "copy-from-recipe": {
     "config/": "%CONFIG_DIR%"
   },
+  "copy-from-package": {
+    "src/Migrations/": "%SRC_DIR%/Migrations/"
+  },
   "add-lines": [
     {
       "file": "assets/admin/entrypoint.js",
