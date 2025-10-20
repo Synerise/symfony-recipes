@@ -4,4 +4,4 @@ Additional recipes can be found on the [Main Recipes Repository](https://github.
 
 | Package | Latest Recipe |
 | --- | --- |
-| [synerise/sylius-integration-plugin](https://packagist.org/packages/synerise/sylius-integration-plugin) | [0.2](synerise/sylius-integration-plugin/0.2) |
+| [synerise/sylius-integration-plugin](https://packagist.org/packages/synerise/sylius-integration-plugin) | [1.0.0](synerise/sylius-integration-plugin/1.0.0) |
