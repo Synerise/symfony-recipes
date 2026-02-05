@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@SyneriseSyliusIntegrationPlugin/config/config.yaml" }
