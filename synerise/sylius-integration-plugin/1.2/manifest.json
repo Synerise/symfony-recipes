@@ -13,6 +13,12 @@
       "content": "import '../../vendor/synerise/sylius-integration-plugin/assets/admin/entrypoint';",
       "position": "bottom",
       "warn_if_missing": true
+    },
+    {
+      "file": "assets/shop/entrypoint.js",
+      "content": "import '../../vendor/synerise/sylius-integration-plugin/assets/shop/entrypoint';",
+      "position": "bottom",
+      "warn_if_missing": true
     }
   ]
 }
